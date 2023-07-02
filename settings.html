@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framwork.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="d-flex">
+        <div class="header">
+            <div class="head">
+                <h2>Elzero</h2>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li>
+                        <a href="../Design 4/index.html">
+                            <i class="fa-solid fa-chart-gantt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active"  href="../Design 4/settings.html">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/profile.html">
+                            <i class="fa-solid fa-user"></i>
+                            <span>profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/projects.html">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/courses.html">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/friends.html">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/files.html">
+                            <i class="fa-solid fa-file"></i>
+                            <span>files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Design 4/plans.html">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <span>plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content ">
+            <div class="header p-20 ">
+                <div class="search-input">
+                    <input placeholder="Type A Keyword" type="search">
+                </div>
+                <div class="header-icon">
+                    <i class="fa-solid fa-bell"></i>
+                    <img src="image/avatar.png" alt="">
+                </div>
+            </div>
+            <div class="content-header">
+                <h1>settings</h1>
+            </div>
+            <div class="main-content-box">
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>site control</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>Control The Website If There Is Maintenance</p>
+                        </div>
+                        <div class="box-header-control p-nt-15">
+                            <div class="control-content">
+                                <span>Website Control</span>
+                                <p>Open/Close Website And Type The Reason</p>
+                            </div>
+                            <div class="control-buttom">
+                                <label >
+                                    <input class="check-toggel" type="checkbox" checked>
+                                    <div class="switch-toggle"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="site-text p-15">
+                            <textarea placeholder="close Message Content" ></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>General Info</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>General Information About Your Account</p>
+                        </div>
+                        <div class="box-input-content p-nt-15">
+                            <div class="input-form">
+                                <form action="">
+                                    <label for="frist-name">Frist Name</label>
+                                    <input placeholder="Frist Name" id="frist-name" type="text">
+                                    <label for="last-name">Last Name</label>
+                                    <input placeholder="Last Name" id="last-name" type="text">
+                                    <label for="email">Email</label>
+                                    <input value="HaythamAli@Gmail.com"  disabled id="email" type="email">
+                                    <a href="#">Change</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>Security Info</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>Security Information About Your Account</p>
+                        </div>
+                        <div class="security-box p-nt-15">
+                            <div class="security-content">
+                                <div class="security-text">
+                                    <h4>Password</h4>
+                                    <span>Last Change On 25/10/2021</span>
+                                </div>
+                                <div class="security-input">
+                                    <input value="Change" type="button">
+                                </div>
+                            </div>
+                            <div class="security-content">
+                                <div class="security-text">
+                                    <h4>Two-Factor Authentication</h4>
+                                    <span>Enable/Disable The Feature</span>
+                                </div>
+                                <div class="security-chack">
+                                    <label >
+                                        <input class="security-chack-box" checked  type="checkbox">
+                                        <div class="security-switch-box"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="security-content">
+                                <div class="security-text">
+                                    <h4>Devices</h4>
+                                    <span>Check The Login Devices List</span>
+                                </div>
+                                <div class="security-devices">
+                                    <a href="#">Devices</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>Social Info</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>Social Media Information</p>
+                        </div>
+                        <div class="social-box p-nt-15">
+                            <div class="social-content">
+                                <input placeholder="Twitter Username"  type="text">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="social-content">
+                                <input placeholder="Facebook Username"  type="text">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="social-content">
+                                <input placeholder="Linkedin Username"  type="text">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="social-content">
+                                <input placeholder="Youtube Username"  type="text">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>Widgets Control</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>Show/Hide Widgets</p>
+                        </div>
+                        <div class="widgets-box p-nt-15">
+                            <div class="widgets-content ">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" checked name="" id="">
+                                    <div class="switch-widgets"><span>quick draft</span></div>
+                                </label>
+                            </div>
+                            <div class="widgets-content">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" name="" id="">
+                                    <div class="switch-widgets"><span>Yearly Targets</span></div>
+                                </label>
+                            </div>
+                            <div class="widgets-content">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" name="" id="">
+                                    <div class="switch-widgets"><span>Tickets Statistics</span></div>
+                                </label>
+                            </div>
+                            <div class="widgets-content">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" name="" checked id="">
+                                    <div class="switch-widgets"><span>Latest News</span></div>
+                                </label>
+                            </div>
+                            <div class="widgets-content">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" name="" checked id="">
+                                    <div class="switch-widgets"><span>Latest Tasks</span></div>
+                                </label>
+                            </div>
+                            <div class="widgets-content">
+                                <label>
+                                    <input class="check-widgets" type="checkbox" name="" checked id="">
+                                    <div class="switch-widgets"><span>Top Search Items</span></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">
+                        <div class="spy-header"><h2>Backup Manager</h2></div>
+                        <div class="box-p-content p-nt-15">
+                            <p>Control Backup Time And Location</p>
+                        </div>
+                        <div class="backup-box p-nt-15">
+                            <div class="backup-radio ">
+                                <div class="backup">
+                                    <label>
+                                        <input  id="daily" name="backup" checked type="radio">
+                                        <label for="daily">Daily</label>
+                                    </label>
+                                </div>
+                                <div class="backup">
+                                    <label>
+                                        <input  id="weekly" name="backup" type="radio">
+                                        <label for="weekly">Weekly</label>
+                                    </label>
+                                </div>
+                                <div class="backup">
+                                    <label>
+                                        <input  id="monthly" name="backup" type="radio">
+                                        <label for="monthly">Monthly</label>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="backup-servers mtop-15">
+                                <div class="backup-server p-nt-15">
+                                    <input name="server" id="server-one" type="radio">
+                                    <label for="server-one">
+                                        <div class="server-box ">
+                                            <i class="fa-solid fa-server"></i>
+                                            <span>Zero</span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="backup-server p-nt-15">
+                                    <input name="server" id="server-two" type="radio">
+                                    <label for="server-two">
+                                        <div class="server-box ">
+                                            <i class="fa-solid fa-server"></i>
+                                            <span>Haytham</span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="backup-server p-nt-15">
+                                    <input name="server" id="server-three" type="radio">
+                                    <label for="server-three">
+                                        <div class="server-box ">
+                                            <i class="fa-solid fa-server"></i>
+                                            <span>Sigma</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+</body>
+</html>
